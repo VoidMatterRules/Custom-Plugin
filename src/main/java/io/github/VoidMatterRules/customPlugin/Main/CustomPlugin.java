@@ -1,4 +1,4 @@
-package io.github.VoidMatterRules.customPlugin;
+package io.github.VoidMatterRules.customPlugin.Main;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
