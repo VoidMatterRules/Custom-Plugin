@@ -1,4 +1,4 @@
 name: CustomPlugin
-version: '1.0-SNAPSHOT'
+version: '0.1'
 main: io.github.VoidMatterRules.customPlugin.CustomPlugin
 api-version: '1.21'
