@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Custom-Plugin.iml" filepath="$PROJECT_DIR$/.idea/Custom-Plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomPlugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomPlugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.github.VoidMatterRules.CustomPlugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/io.github.VoidMatterRules.CustomPlugin.main.iml" />
     </modules>
   </component>
 </project>
