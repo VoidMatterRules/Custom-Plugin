@@ -2,3 +2,6 @@ name: CustomPlugin
 version: '0.2'
 main: io.github.VoidMatterRules.customPlugin.program.CustomPlugin
 api-version: '1.21'
+
+commands:
+   HealTestCommand:

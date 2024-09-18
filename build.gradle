@@ -1,6 +1,13 @@
 plugins {
     id 'java'
 }
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'io.github.VoidMatterRules.customPlugin.Main.Main'
+        )
+    }
+}
 
 group = 'io.github.VoidMatterRules'
 version = '0.2'
