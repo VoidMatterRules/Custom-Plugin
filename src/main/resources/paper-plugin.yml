@@ -5,3 +5,8 @@ api-version: '1.21'
 
 commands:
    HealTestCommand:
+      description: "Heals the player"
+      usage: "/heal"
+   Kit:
+      description: "Opens a Kit Inventory"
+      usage: "/kit"

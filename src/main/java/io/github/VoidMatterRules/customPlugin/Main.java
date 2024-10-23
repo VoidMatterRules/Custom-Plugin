@@ -1,14 +1,31 @@
 package io.github.VoidMatterRules.customPlugin;
 
 import io.github.VoidMatterRules.customPlugin.commands.HealCommand;
+import io.github.VoidMatterRules.customPlugin.commands.KitCommand;
+import io.github.VoidMatterRules.customPlugin.listeners.JoinListener;
+import org.bukkit.command.PluginCommand;
+import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.Objects;
-
 public final class Main extends JavaPlugin {
+    public static void main(String[] args) {}
 
     @Override
     public void onEnable() {
-        Objects.requireNonNull(getCommand("HealTestCommand")).setExecutor(new HealCommand());
+        PluginCommand healCommand = getCommand("HealTestCommand");
+        PluginCommand kitCommand = getCommand("KitTestCommand");
+        if (healCommand != null) {
+            healCommand.setExecutor(new HealCommand());
+        } else {
+            getLogger().severe("No command found!");
+        }
+        if (kitCommand != null) {
+            kitCommand.setExecutor(new KitCommand());
+        } else {
+            getLogger().severe("No command found!");
+        }
+        PluginManager pluginManager = getServer().getPluginManager();
+        pluginManager.registerEvents(new JoinListener(), this);
     }
+
 }
