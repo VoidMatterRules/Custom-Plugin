@@ -1,6 +1,6 @@
 name: CustomPlugin
 version: '0.2'
-main: io.github.VoidMatterRules.customPlugin.program.CustomPlugin
+main: io.github.VoidMatterRules.customPlugin.Main
 api-version: '1.21'
 
 commands:

@@ -1,2 +1,2 @@
 Manifest-Version: 1.0
-Main-Class: io.github.VoidMatterRules.customPlugin.Main.Main
+Main-Class: io.github.VoidMatterRules.customPlugin.Main
