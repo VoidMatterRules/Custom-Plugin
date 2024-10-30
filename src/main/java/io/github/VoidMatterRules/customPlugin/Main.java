@@ -16,16 +16,17 @@ public final class Main extends JavaPlugin {
         PluginCommand kitCommand = getCommand("KitTestCommand");
         if (healCommand != null) {
             healCommand.setExecutor(new HealCommand());
+            System.out.println("Command has been found.");
         } else {
             getLogger().severe("No command found!");
         }
         if (kitCommand != null) {
             kitCommand.setExecutor(new KitCommand());
+            System.out.println("Command has been found.");
         } else {
             getLogger().severe("No command found!");
         }
         PluginManager pluginManager = getServer().getPluginManager();
         pluginManager.registerEvents(new JoinListener(), this);
     }
-
 }

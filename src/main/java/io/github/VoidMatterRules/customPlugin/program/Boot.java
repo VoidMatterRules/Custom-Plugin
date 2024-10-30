@@ -7,5 +7,4 @@ public class Boot {
         testMessage = "this is a test message";
         System.out.println(testMessage);
     }
-
 }

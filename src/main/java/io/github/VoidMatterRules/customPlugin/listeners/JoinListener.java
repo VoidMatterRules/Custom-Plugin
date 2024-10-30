@@ -10,6 +10,6 @@ public class JoinListener implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event)
     {
-        event.setJoinMessage("§6HAHA YOU'RE ACTUALLY DUMB ENOUGH TO JOIN THIS SHIT!!!");
+        event.setJoinMessage("§6Welcome, our Custom Plugin is active.");
     }
 }
